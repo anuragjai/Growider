@@ -1994,7 +1994,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #nav-menu-container {
-    padding-right: 60px;
+    /* padding-right: 60px; */
   }
 }
 
@@ -2011,7 +2011,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   color: #fff;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   outline: none;
 }
@@ -2383,7 +2383,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .projects-area .single-project {
-  height: 450px;
+  height: 350px;
   color: #222;
   position: relative;
   overflow: hidden;
@@ -2903,4 +2903,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.single-feature p {
+  margin-bottom: 70px;
+  font-size: 17px;
+}
+
+.magic-area{
+  height: 100% !important;
+  background: #f1f1f2;
+}
+
+.magic-title p{
+  font-size: 25px;
+  font-style: italic;
+}
+
+.magic-title h1{
+  font-size: 50px;
+}
+
+.single-img img{
+  width: 160px;
+  height: 120px;
+}
+
+.one-liner{
+  font-style: italic;
+  color: #ffffff;
+}
+
+#success_message h3{
+  height: 100% !important;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
 }
