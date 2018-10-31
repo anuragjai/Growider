@@ -49,6 +49,10 @@
   font-weight: 300;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -57,8 +61,6 @@ body {
   line-height: 1.625em;
   position: relative;
 }
-
-
 
 ol, ul {
   margin: 0;
@@ -735,6 +737,10 @@ td, th {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.banner-area{
+  height: 100%;
 }
 
 .overlay {
@@ -2340,6 +2346,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+.feature{
+  height: 100%;
+}
+
 .feature-section {
   border-bottom: 1px solid #eee;
   padding-bottom: 100px;
@@ -2719,6 +2729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 188px;
   margin-top: 0px;
   resize: none;
+  font-size: 14px;
 }
 
 .footer-area {
@@ -2932,6 +2943,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .one-liner{
   font-style: italic;
   color: #ffffff;
+}
+
+.service-icon{
+  width: 100px; 
+  margin-top: 20%;
 }
 
 #success_message h3{
